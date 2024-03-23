@@ -1,0 +1,93 @@
+body {
+  background-color: #f5f3ea;
+}
+
+.container {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  @media (max-width: 1200px) {
+    max-width: 1920px;
+  }
+  @media (max-width: 768px) {
+    max-width: 991px;
+  }
+  @media (max-width: 320px) {
+    max-width: 478px;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  text-decoration: none;
+}
+
+.button-black {
+  min-height: 53px;
+  padding: 10px 30px;
+  border-radius: 50px;
+  background: #252525;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  width: max-content;
+  font-family: $font-gilroy-medium;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+
+  svg {
+    margin-left: 10px;
+  }
+}
+
+.button-white {
+  padding: 10px 20px;
+  border-radius: 50px;
+  background: #fff;
+  color: $color-black;
+  font-family: $font-gilroy-medium;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.section-title {
+  margin: 0;
+  padding: 70px 0 50px;
+  color: $color-black;
+  text-align: center;
+  font-family: $font-gilroy-medium;
+  font-size: 120px;
+  font-weight: 300;
+  letter-spacing: 8.48px;
+  text-transform: uppercase;
+
+  @media screen and (min-width: $tablet) and (max-width: $desktop) {
+    font-size: 70px;
+    padding: 0;
+  }
+
+  @media screen and (max-width: $tablet) {
+    font-size: 40px;
+    padding: 0;
+  }
+}
+
+.card-title {
+  @media screen and (max-width: $tablet) {
+    margin: 0;
+    text-align: center;
+  }
+}
+
+.card-subtitle {
+  @media screen and (max-width: $tablet) {
+    display: flex;
+    justify-content: center;
+  }
+}

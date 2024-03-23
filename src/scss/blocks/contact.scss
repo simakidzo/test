@@ -1,0 +1,106 @@
+.contact__wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-top: 50px;
+
+  @media (max-width: 1200px) {
+    flex-direction: column;
+  }
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+  @media (max-width: 320px) {
+    flex-direction: column;
+  }
+
+
+
+
+}
+.contact__title {
+  color: #333;
+  font-family: $font-gilroy-semibold;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+  width: 50%;
+  display: flex;
+  margin-left: 70px;
+  @media (max-width: 1200px) {
+    margin-left: 0;
+  }
+  @media (max-width: 768px) {
+    margin-left: 0;
+    font-size: 70px;
+  }
+  @media (max-width: 320px) {
+    font-size: 30px;
+    display: flex;
+    justify-content: left;
+    align-items: start;
+    margin: 0;
+    padding:0 ;
+  }
+
+
+
+}
+.contact__content {
+  width: 50%;
+
+  @media (max-width: 1200px) {
+    width: auto;
+    margin: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  @media (max-width: 768px) {
+    width: auto;
+    margin: 60px;
+  }
+  @media (max-width: 320px) {
+    width: auto;
+    margin: 60px;
+  }
+
+
+
+  .contact__content-action {
+    color: #252525;
+    font-family: $font-gilroy-semibold;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+
+    @media (max-width: 768px) {
+      font-size: 50px;
+    }
+    @media (max-width: 320px) {
+      font-size: 30px;
+    }
+  }
+
+  .contact__content-question {
+    color: #252525;
+    font-family: Gilroy-Medium;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    @media (max-width: 768px) {
+      font-size: 40px;
+    }
+    @media (max-width: 320px) {
+      font-size: 38px;
+    }
+  }
+}
