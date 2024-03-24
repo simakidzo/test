@@ -131,50 +131,48 @@
                 font-size: 25px;
             }
         }
-    }
-
-    .media-links {
-        @include media-links;
-        @media screen and (max-width: $tablet) {
-            gap: 10px;
-        }
-    
-        .facebook {
-            @include facebook-white;
-            @media screen and (max-width: $tablet) {
-                width: 38px;
-                height: 38px;
-                border-radius: 30px;
-            }
-        }
-    
-        .twitter {
-            @include twitter-white;
-            @media screen and (max-width: $tablet) {
-                width: 38px;
-                height: 38px;
-                border-radius: 30px;
-            }
-        }
-    
-        .linkedin {
-            @include linkedin-white;
-            @media screen and (max-width: $tablet) {
-                width: 38px;
-                height: 38px;
-                border-radius: 30px;
-            }
-        }
-    
-        .dribble {
-            @include dribble-white;
-            @media screen and (max-width: $tablet) {
-                width: 38px;
-                height: 38px;
-                border-radius: 30px;
-            }
-        }
-    }
-    
+    }    
 }
 
+.media-links {
+    @include media-links;
+    @media screen and (max-width: $tablet) {
+        gap: 10px;
+    }
+
+    .facebook {
+        @include facebook-white;
+        @media screen and (max-width: $tablet) {
+            width: 38px;
+            height: 38px;
+            border-radius: 30px;
+        }
+    }
+
+    .twitter {
+        @include twitter-white;
+        @media screen and (max-width: $tablet) {
+            width: 38px;
+            height: 38px;
+            border-radius: 30px;
+        }
+    }
+
+    .linkedin {
+        @include linkedin-white;
+        @media screen and (max-width: $tablet) {
+            width: 38px;
+            height: 38px;
+            border-radius: 30px;
+        }
+    }
+
+    .dribble {
+        @include dribble-white;
+        @media screen and (max-width: $tablet) {
+            width: 38px;
+            height: 38px;
+            border-radius: 30px;
+        }
+    }
+}
