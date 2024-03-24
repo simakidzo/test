@@ -45,6 +45,11 @@ ul {
   font-style: normal;
   font-weight: 400;
 
+  @media screen and (max-width: $tablet) {
+    box-sizing: border-box;
+    width: 100%;
+  }
+
   svg {
     margin-left: 10px;
   }
