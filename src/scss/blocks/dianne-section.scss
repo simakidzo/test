@@ -140,7 +140,7 @@
         gap: 10px;
     }
 
-    .facebook {
+    .facebook-white {
         @include facebook-white;
         @media screen and (max-width: $tablet) {
             width: 38px;
@@ -149,7 +149,7 @@
         }
     }
 
-    .twitter {
+    .twitter-white {
         @include twitter-white;
         @media screen and (max-width: $tablet) {
             width: 38px;
@@ -158,7 +158,7 @@
         }
     }
 
-    .linkedin {
+    .linkedin-white {
         @include linkedin-white;
         @media screen and (max-width: $tablet) {
             width: 38px;
@@ -167,7 +167,7 @@
         }
     }
 
-    .dribble {
+    .dribble-white {
         @include dribble-white;
         @media screen and (max-width: $tablet) {
             width: 38px;
