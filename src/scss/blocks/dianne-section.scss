@@ -132,6 +132,7 @@
             }
         }
     }
+
     .media-links {
         @include media-links;
         @media screen and (max-width: $tablet) {
@@ -174,6 +175,6 @@
             }
         }
     }
+    
 }
-
 
